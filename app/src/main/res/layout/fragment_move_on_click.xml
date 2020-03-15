@@ -5,14 +5,11 @@
     android:id="@+id/motion_move"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    app:layout_constraintStart_toStartOf="parent"
-    app:layout_constraintTop_toTopOf="parent"
-    app:layout_constraintEnd_toEndOf="parent"
     app:layoutDescription="@xml/motion_move">
     <ImageView
-        android:id="@+id/moving_circle"
+        android:id="@+id/moving_square"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:importantForAccessibility="no"
-        android:src="@drawable/shape_filled_circle"/>
+        android:src="@drawable/shape_filled_circle_orange"/>
 </androidx.constraintlayout.motion.widget.MotionLayout>

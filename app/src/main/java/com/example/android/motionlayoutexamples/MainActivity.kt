@@ -17,6 +17,10 @@ class MainActivity : AppCompatActivity() {
         drag_shape_button.setOnClickListener {
             replaceFragment(DragCircleFragment())
         }
+
+        change_shape_drag.setOnClickListener {
+            replaceFragment(ChangeShapeOnDragFragment())
+        }
     }
 
     private fun replaceFragment(fragment: Fragment) {

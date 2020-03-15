@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="circle_size">50dp</dimen>
+    <dimen name="shape_size">50dp</dimen>
     <dimen name="main_activity_button_margin">10dp</dimen>
     <dimen name="motion_fragment_margin_horizontal">5dp</dimen>
     <dimen name="button_width">190dp</dimen>
